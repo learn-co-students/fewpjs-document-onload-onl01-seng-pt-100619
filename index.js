@@ -8,3 +8,5 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log(
     "This console.log() fires when index.js loads - before DOMContentLoaded is triggered"
   );
+
+  // add a callback when the dom content is loaded by using the DOMContentLoaded even listener, using a multiple line function as the second parameter
